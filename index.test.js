@@ -32,6 +32,6 @@ describe('Test getting the first string from an array', () => {
 		).toBe(null);
 	});
 	test('Returns the second item if the first item is a number', () => {
-		expect(utils.getFirstStringFromArray([0, 'test'])).toBe('test');
+		expect(utils.getFirstStringFromArray([0, '1'])).toBe('1');
 	});
 });
